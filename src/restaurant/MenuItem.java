@@ -12,4 +12,11 @@ public class MenuItem {
         this.category = category;
         this.isNew = isNew;
     }
+
+    public boolean isNew() {
+        return this.isNew;
+    }
+
+
 }
+
